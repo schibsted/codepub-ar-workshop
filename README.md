@@ -67,12 +67,13 @@
 1. Plug the phone into the computer, you should get a popup on the phone asking you if you trust this device, say yes
 1. Open the Build Settings (*File -> Build Settings*)
 1. Click on *Add open scenes* to add your scene to the build. The scene on top will be the one that gets opened when the app is opened, so if your scene is not on top drag it to the top
-1. Select *Android* on the list and click `Build And Run`, give the file a name and place in anywhere you want on your computer. Unity should now build the project into a `.apk` and automatically install it on your phone.
+1. Select *Android* on the list and click `Switch Platform`, this can take a moment
+1. Click `Build And Run`, give the file a name and place in anywhere you want on your computer. Unity should now build the project into a `.apk` and automatically install it on your phone.
 
 ### iOS
 1. Start *XCode* and install any additional components if prompted
 1. Plug you phone into the computer
-1. Open the Build Settings (*File -> Build Settings*)
+1. Back in Unity, open the Build Settings (*File -> Build Settings*)
 1. Click on *Add open scenes* to add your scene to the build. The scene on top will be the one that gets opened when the app is opened, so if your scene is not on top drag it to the top
 1. Select *iOS* on the list and click `Switch Platform`, this can take a moment
 1. Click `Build And Run`, give the folder a name and place in anywhere you want on your computer. Unity should now build the project into an *XCode* project and open it.
